@@ -27,16 +27,32 @@
 }
 
 body {
-    background-color: var(--color-primary-darker);
-    
+    background-color: var(--color-background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
-/*
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-*/
 
+html, body {
+    height: 100vh; /* height = altura */
+}
+
+body, input, button, textarea {
+    font: 500 1.6rem Poppins;
+   /* font-weight: 500;
+    font-family: Poppins;
+    font-size: 1.6rem;*/
+    color: var(--color-text-base);
+}
+
+#container {
+    width: 90vw; /* width  = largura */
+    max-width: 700px;
+}
