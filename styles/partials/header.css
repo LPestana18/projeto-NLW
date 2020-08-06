@@ -34,7 +34,7 @@
     opacity: 0.6;
 }
 
-.page-header .top-bar-container img {
+.page-header .top-bar-container > img {
     height: 1.6rem;
 }
 
@@ -51,6 +51,13 @@
     color: var(--color-title-in-primary);
 }
 
+.page-header .header-content p {
+    max-width: 30rem;
+    font-size: 1.5rem;
+    line-height: 2.6rem;
+    color: var(--color-text-in-primary);
+    margin-top: 2.4rem;
+}
 
 
 @media (min-width:700px){
