@@ -71,7 +71,7 @@
                        <label for="cost"> Custo da sua hora/aula 
                            <small>(R$)</small>
                         </label>
-                        <input type="number" name="cost" id="cost" required>
+                        <input name="cost" id="cost" type="cost" type="number" required>
                    </div>
                </fieldset>
 
@@ -88,7 +88,7 @@
                                 <option value="">Selecione uma opção</option>
                                 {%for weekday in weekdays%}
                                     <option value="{{loop.index0}}">
-                                        {{weekday}}
+                                {{weekday}}
                                     </option>
                                 {%endfor%}    
                                 </select>
