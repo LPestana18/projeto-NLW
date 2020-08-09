@@ -22,7 +22,7 @@ Database.then(async (db) => {
         {
             weekday: 1, 
             time_from: 720,
-            tume_to: 1220
+            time_to: 1220
         },
         {
             weekday: 0,
